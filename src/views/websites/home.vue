@@ -1,6 +1,6 @@
 <template>
-  <div class="nav-header">
-      <nav class="navbar navbar-expand-sm navbar-info bg-muted" style="background-color: #ccc;">
+    <div class="nav-header">
+      <nav class="navbar navbar-expand-sm navbar-info bg-white">
         <div class="container-fluid">
           <a class="navbar-brand" href="javascript:void(0)">Pixabay</a>
           <button
@@ -27,10 +27,16 @@
         </div>
       </nav>
       <div
-        class="p-5 bg-muted text-white" style="background-color: #ccc; height: 310px; ">
-        <h3 class="title" style="text-align: center; font-weight: bold">
+        class="p-5 bg-info text-white"
+        style="
+          background-image: url(https://fptshop.com.vn/Uploads/Originals/2023/5/23/638204747578763930_frame-218.png);
+          background-size: 100%;
+          /* background-repeat: no-repeat; */
+        "
+      >
+        <h1 class="title" style="text-align: center; font-weight: bold">
           Stunning royalty-free images & royalty-free stock
-        </h3>
+        </h1>
         <p style="text-align: center">
           Over 4.2 million+ high quality stock images, videos and music shared
           by our talented community.
@@ -61,7 +67,7 @@
     </div>
     <!----- Navbar_Header ---->
     <div class="topic" style="text-align: center">
-      <h3 style="margin-top: 30px;">PICTURE BEAUTIFULL</h3>
+      <h1>PICTURE BEAUTIFULL</h1>
       <p>If you need beautiful photos, don't hesitate to come to us</p>
     </div>
     <!----- Title ------>
@@ -96,7 +102,7 @@
                 src="@/assets/anh4.webp"
                 alt="Los Angeles"
                 class="d-block w-100"
-                style="height: 500px; border-radius: 20px"
+                style="height: 500px; border-radius: 50px"
               />
             </div>
             <div class="carousel-item">
@@ -104,7 +110,7 @@
                 src="@/assets/anh2.png"
                 alt="Chicago"
                 class="d-block w-100"
-                style="height: 500px; border-radius: 20px"
+                style="height: 500px; border-radius: 50px"
               />
             </div>
             <div class="carousel-item">
@@ -112,7 +118,7 @@
                 src="@/assets/anh3.webp"
                 alt="New York"
                 class="d-block w-100"
-                style="height: 500px; border-radius: 20px"
+                style="height: 500px; border-radius: 50px"
               />
             </div>
           </div>
@@ -141,14 +147,12 @@
     <!------Slide------->
     <div class="row" style="margin-top: 70px">
       <div class="col-sm-4">
-        <router-link to="/about1">
-          <div class="card" style="width: 482px">
+        <div class="card" style="width: 482px">
           <img class="card-img-top" src="@/assets/aot1.jpg" alt="Card image" />
           <div class="card-img-overlay">
             <a style="color: white">Attack on Titan</a>
           </div>
         </div>
-        </router-link>
       </div>
       <div class="col-sm-4">
         <div class="card" style="width: 482px">
@@ -479,13 +483,3 @@
       <!-- Copyright -->
     </footer>
 </template>
-
-    <style>
-     .card:hover {
-        opacity: 0.7;
-        cursor: pointer;
-      }
-      .nav-header {
-        background-image: url(https://i1-dulich.vnecdn.net/2021/12/23/2-7996-1640236604.jpg?w=680&h=0&q=100&dpr=1&fit=crop&s=nxLNf6kt76nWKuTHOm84LA);
-      }
-  </style>
